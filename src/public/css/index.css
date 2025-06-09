@@ -1,0 +1,136 @@
+.contact-form__content {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    color: #6c5c4e;
+}
+
+.contact-form__title {
+     text-align: center;
+     font-size: 20px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-group__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-label__name {
+    font-weight: bold;
+    padding: 13px 0px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.form-label__required {
+    color: red;
+    padding: 13px 3px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.contact-form__input-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form__name {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.contact-form__input-name {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.contact-form__input-name input {
+    width: 200px;
+    max-width: 250px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form__input input {
+     padding: 10px;
+     width: 600px;
+     border: 1px solid #ddd;
+     border-radius: 3px;
+     appearance: none;
+}
+
+select[name="category_id"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.contact-form__gender {
+    display: flex;
+    justify-content: left;
+    color: #8c7a6b;
+    width: 600px;
+    padding: 30px;
+    accent-color: #8c7a6b;
+
+}
+
+.contact-form__gender {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.contact-form__tel-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.contact-form__choice {
+    appearance: none;
+    background: url("data:image/svg+xml;utf8,<svg ... >") no-repeat right 10px center;
+    background-color: #f8f8f8;
+    background-image: ;
+}
+
+.contact-form__textarea textarea {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+    resize: none;
+}
+
+.form-button__submit {
+    background-color: #8c7a6b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+
+.form-error {
+    color: red;
+}

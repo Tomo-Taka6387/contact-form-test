@@ -1,0 +1,34 @@
+.header__inner {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page nav ul {
+    display: flex;
+    justify-content: center;
+    /* 中央揃え（任意） */
+    list-style: none;
+    padding: 0;
+    background-color: #8c7a6b;
+    color: white;
+}
+
+.page nav ul li {
+    margin: 0 5px;
+}
+
+.page nav ul li a,
+.page nav ul li span {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    color: #333;
+    text-decoration: none;
+}
+
+.page nav ul li.active span {
+    background-color: #8c7a6b;
+    color: #fff;
+    border-color: #8c7a6b;
+}
